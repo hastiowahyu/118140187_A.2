@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>hastio</awal>
+        <tengah>wahyu</tengah>
+        <akhir>utomo</akhir>
+    </nama>
+    <jenisKelamin>laki-laki</jenisKelamin>
+    <saudara>
+        <kakak>rhisky sambayu</kakak>
+        <adik>reva nisa</adik>
+    </saudara>
+    <orangTua>
+        <ibu>istilah</ibu>
+        <bapak>sambiyo</bapak>
+    <orangTua>
+    <hobby>olahraga</hobby>
+    <alamat>
+        <desa>karimun</desa>
+        <kecamatan>sukarame</kecamatan>
+        <kabupaten>bandar lampung</kabupaten>
+    </alamat>
+    <sosialMedia>
+        <facebook>wahyu</facebook>
+        <instagram>hastio.wu</facebook>
+    </sosialMedia>
+</dataDiri>

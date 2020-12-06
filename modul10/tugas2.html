@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manipulasi HTML ke DOM</title>
+</head>
+<body>
+    <div class="by">
+        <ul>
+        <li>contoh getElementsByName()</li><br>
+        Ketik<br>
+        <input type="text" name="name">
+        <button onclick="myFungsi()">Klik disisni!</button>
+        </ul>
+        <script>
+            function myFungsi() {
+                var x = document.getElementsByName("name")[0].tagName;
+                alert(document.getElementsByName("name")[0].value);
+            }
+        </script>
+    </div>
+    <div class="class">
+        <ul>
+        <li> contoh getElementByClassName()</li><br>
+        <div class="example">hey</div>
+        <button onclick="myFunction()">Klik disini</button>
+        <script>
+            function myFunction() {
+                var x = document.getElementsByClassName("example");
+                x[0].innerHTML = "berhasil";
+            }
+        </script>
+        </ul>
+    </div>
+    <div class="tag">
+        <ul>
+        <li>contoh getElementByTagName()</li>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        <button onclick="myList()">buat</button>
+        <p id="ini"></p>
+        <script>
+        function myList() {
+            var x = document.getElementsByTagName("li");
+            document.getElementById("ini").innerHTML = x[5].innerHTML;
+        }
+        </script>
+    </div>
+    <div class="ns">
+        <ul>
+        <li>contoh getElementByTagNameNS() </li><br>
+        <button onclick="getAllParaElems()">munculkan elemen p</button>
+        <script>
+            function getAllParaElems() {
+                var nama = document.getElementsByTagNameNS("http://www.w3.org/1999/xhtml", "p");
+                var number = nama.length;
+                alert("Ada " + number + " tag p");
+            }
+        </script>
+    </div>
+    <div class="query">
+        <ul>
+        <li>contoh querySelector()</li>
+        <p>ini</p>
+            <p>itu</p>
+        <script>
+            var p4 = document.querySelector('.query p');
+            p4.style.color = 'red';
+        </script>
+    </div>
+    <div class="all">
+        <ul>
+        <li> contoh querySelectorAll()</li><br>
+        <p>oy</p>
+        <p>oy</p>
+        <script>
+                var warnaKu = document.querySelectorAll('.all p');
+                for (let i = 0; i < warnaKu.length; i++) {
+                        warnaKu[i].style.backgroundColor = 'blue';
+                    }
+        </script>
+    </div>
+    
+</body>
+</html>

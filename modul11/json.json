@@ -1,0 +1,28 @@
+{
+    "dataDiri": {
+        "nama":{
+            "awal": "hastio",
+            "tengah": "wahyu",
+            "akhir": "utomo"
+        },
+        "jenisKelamin" : "laki-laki",
+        "saudara": {
+            "kakak": "rhisky sambayu",
+            "adik": "reva nisa"
+        },
+        "orangTua": {
+            "ibu": "istilah",
+            "bapak": "sambiyo"
+        },
+        "hobby": "olahraga",
+        "alamat": {
+            "desa": "karimun",
+            "kecamatan": "sukarame",
+            "kabupaten": "bandar lampung"
+        },
+        "socialMedia": {
+            "facebook": "wahyu",
+            "instagram": "hastio.wu"
+        },
+    }
+}
